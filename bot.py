@@ -44,9 +44,6 @@ async def on_message(message):
                 result = identify_plant(temp_filename)
                 os.remove(temp_filename)
                 
-                
-                #details_url=['details'],['url']
-                     
                 await message.channel.send(
                 f"🌿 {result}"
                            
