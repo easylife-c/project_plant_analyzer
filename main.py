@@ -25,5 +25,5 @@ def pump_off():
 # For standalone testing of pump control:
 if __name__ == "__main__":
     pump_on()
-    time.sleep(100)  # Keep the pump on for 5 seconds
+    time.sleep(100)  # Keep the pump on for 100 seconds
     pump_off()
